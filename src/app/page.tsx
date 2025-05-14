@@ -10,7 +10,9 @@ export default function Home() {
     <div className="relative w-full flex items-center justify-center">
       <Navbar className="top-2" />
       <p className="flex justify-center items-center h-screen">
-        The Navbar will show on top of the page
+        
+        <span className="text-5xl font-bold">📋 todo list</span>
+
       </p>
     </div>
     
