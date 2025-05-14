@@ -4,18 +4,17 @@ import React, { useState } from "react";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "@/components/ui/navbar-menu";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
+import { TodoListDemo } from "@/components/ui/todo-list-demo";
 
 export default function Home() {
   return (
     <div className="relative w-full flex items-center justify-center">
       <Navbar className="top-2" />
-      <p className="flex justify-center items-center h-screen">
-        
-        <span className="text-5xl font-bold">📋 todo list</span>
-
-      </p>
+      <div className="flex flex-col justify-center items-center h-screen gap-8">
+        <span className="text-5xl font-bold">📋 Todo List</span>
+        <TodoListDemo />
+      </div>
     </div>
-    
   );
 }
 
@@ -32,7 +31,6 @@ function Navbar({ className }) {
             <HoveredLink href="/contact">Contact</HoveredLink>
           </div>
         </MenuItem>
-      
       </Menu>
     </div>
   );
