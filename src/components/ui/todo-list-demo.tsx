@@ -2,9 +2,9 @@ import * as React from "react";
 import { TodoItem, type Todo } from "@/components/ui/to-do-item";
 
 const todosData: Todo[] = [
-  { id: 1, title: "Complete documentation", completed: false },
-  { id: 2, title: "Review pull requests", completed: false },
-  { id: 3, title: "Update dependencies", completed: false },
+  { id: 1, title: "Tache 1", completed: true },
+  { id: 2, title: "Tache 2", completed: false },
+  { id: 3, title: "Tache 3", completed: false },
 ];
 
 export function TodoListDemo() {
