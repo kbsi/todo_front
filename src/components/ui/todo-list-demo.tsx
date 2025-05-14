@@ -5,6 +5,7 @@ const todosData: Todo[] = [
   { id: 1, title: "Tache 1", completed: true },
   { id: 2, title: "Tache 2", completed: false },
   { id: 3, title: "Tache 3", completed: false },
+  { id: 4, title: "Developpement", completed: false },
 ];
 
 export function TodoListDemo() {
